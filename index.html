@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/57226b2bdd.js" crossorigin="anonymous"></script>
+    <title>Music</title>
+</head>
+<body>
+    <div class="grid">
+        <aside class="menu">
+            <div class="menu__logo">
+            <img class="menu__logo--img" src="./img/logo.png" alt="logo">
+        </div>
+           <ul class="menu__top">
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="menu__text">
+                        Discover
+                    </div>
+                </a> </li>
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="menu__text">
+                        Songs
+                    </div>
+                </a> </li> 
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-compact-disc"></i>
+                    </div>
+                    <div class="menu__text">
+                        Albums
+                    </div>
+                </a> </li> 
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="menu__text">
+                        Artists
+                    </div>
+                </a> </li> 
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="menu__text">
+                        Youtube
+                    </div>
+                </a> </li>
+            </ul>
+            <h2 class="menu__title"> My Tracks</h2>
+            <ul class="menu__tracks">
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="menu__text">
+                        FavouriTe
+                    </div>
+                </a> </li>
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <div class="menu__text">
+                        Resent History
+                    </div>
+                </a> </li> 
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-file-download"></i>
+                    </div>
+                    <div class="menu__text">
+                        Download Items
+                    </div>
+                </a> </li> 
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="far fa-folder-open"></i>
+                    </div>
+                    <div class="menu__text">
+                        Local Files
+                    </div>
+                </a> </li> 
+            </ul>
+            <h2 class="menu__title">Playlist</h2>
+            <ul class="menu__playlist">
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-folder-plus"></i>
+                    </div>
+                    <div class="menu__text">
+                        Classic
+                    </div>
+                </a> </li>
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-folder-plus"></i>
+                    </div>
+                    <div class="menu__text">
+                        Russian
+                    </div>
+                </a> </li> <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-folder-plus"></i>
+                    </div>
+                    <div class="menu__text">
+                        My style
+                    </div>
+                </a> </li> 
+                <li class="menu__option"><a href="" class="menu__link">
+                    <div class="menu__icon">
+                        <i class="fas fa-folder-plus"></i>
+                    </div>
+                    <div class="menu__text">
+                        Relax
+                    </div>
+                </a> </li> 
+            </ul>
+        </aside>
+        <main class="main">
+            <header class="header">
+                <a href="" class="header__menu">
+                    <i class="fas fa-bars"></i>
+                </a>
+               <form action="" class="header__form">
+                   <div class="header__search">
+                       <input type="text" class="header__input" placeholder="Search your entertainment " > 
+                       <i class="fas fa-search header__icon"></i>
+                   </div>
+               </form>
+               <ul class="header__list">
+               <li class="header__option">
+                   <a href="" class="header__link">
+                       <i class="fas fa-tv"></i>
+                    </a> </li>
+               <li class="header__option">
+                   <a href="" class="header__link">
+                       <i class="fas fa-broadcast-tower"></i>
+                    </a> </li> 
+               <li class="header__option">
+                   <a href="" class="header__link header__link--bell">
+                       <i class="far fa-bell"></i>
+                    </a> </li> 
+               </ul>
+            <div class="header__profile profile">
+                <div class="profile__wrapper">
+                   
+                    <div class="profile__online profile__online--off">
+                        
+                        <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.99995 12.7965C6.72382 12.8221 6.47983 12.6118 6.45498 12.3268C6.43013 12.0417 6.63383 11.7899 6.90995 11.7642C9.45105 11.2787 11.215 8.87399 10.9788 6.21734C10.7427 3.5607 8.58426 1.5276 6 1.5276C3.41574 1.5276 1.25733 3.5607 1.02117 6.21734C0.785015 8.87399 2.54895 11.2787 5.09005 11.7642C5.36617 11.8155 5.54973 12.0882 5.50002 12.3732C5.45032 12.6583 5.18618 12.8478 4.91005 12.7965C1.86017 12.2148 -0.257587 9.32934 0.0253119 6.14091C0.308211 2.95249 2.8985 0.512184 6 0.512184C9.1015 0.512184 11.6918 2.95249 11.9747 6.14091C12.2576 9.32934 10.1398 12.2148 7.08995 12.7965H6.99995Z" fill="#F51E38"/>
+                        </svg>
+                        
+            </div>
+                <div class="profile__ava">
+                <img src="./img/ava.jpg" alt="" class="profile__img">
+             
+            </div>
+        </div>
+            <div class="profile__info">
+                <h3 class="profile__title">Wolf LA</h3>
+                <div class="profile__status">
+                <i class="fas fa-crown"></i>
+                <p class="profile__text">Premium</p>
+            </div>
+            </div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="banner__block">
+                <p class="banner__status">// TRENDING</p>
+                <h1 class="banner__title">Akcent feat Lidia <br>
+                    Buble & DDY Nunes</h1>
+                <p class="banner__artist">- Kamelia</p>
+                <div class="banner__buttons">
+                    <a href="" class="banner__play">
+                        <p class="banner__start">Play</p>
+                        <i class="fas fa-play"></i>
+                    </a>
+                    <a href="" class="banner__share">
+                        <i class="fas fa-share-alt"></i>
+                    </a>
+                </div>
+             
+            </div>
+        </div>
+      
+        <div class="tracks">
+            <div class="tracks__row">
+                <h2 class="tracks__title">Featured Tracks</h2>
+         
+                <ul class="tracks__list">
+                   <li class="tracks__card card"> 
+                      
+                    <a href="" class="card__link">
+                        <div class="card__cover"> 
+                            <img src="./img/12.jpg" alt="" > 
+                        </div>
+                         <h3 class="card__song"> RITMO</h3>
+                        <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                         
+                       
+                    </li>
+                        
+                    <li class="tracks__card card"> 
+                      
+                        <a href="" class="card__link">
+                            <div class="card__cover"> 
+                                <img src="./img/12.jpg" alt="" > 
+                            </div>
+                             <h3 class="card__song"> RITMO</h3>
+                            <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                             
+                           
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                        </li>
+                        <li class="tracks__card card"> 
+                      
+                            <a href="" class="card__link">
+                                <div class="card__cover"> 
+                                    <img src="./img/12.jpg" alt="" > 
+                                </div>
+                                 <h3 class="card__song"> RITMO</h3>
+                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                 
+                               
+                            </li>
+                            <li class="tracks__card card"> 
+                      
+                                <a href="" class="card__link">
+                                    <div class="card__cover"> 
+                                        <img src="./img/12.jpg" alt="" > 
+                                    </div>
+                                     <h3 class="card__song"> RITMO</h3>
+                                    <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                     
+                                   
+                                </li>
+                                <li class="tracks__card card"> 
+                      
+                                    <a href="" class="card__link">
+                                        <div class="card__cover"> 
+                                            <img src="./img/12.jpg" alt="" > 
+                                        </div>
+                                         <h3 class="card__song"> RITMO</h3>
+                                        <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                         
+                                       
+                                    </li>
+                                    <li class="tracks__card card"> 
+                      
+                                        <a href="" class="card__link">
+                                            <div class="card__cover"> 
+                                                <img src="./img/12.jpg" alt="" > 
+                                            </div>
+                                             <h3 class="card__song"> RITMO</h3>
+                                            <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                             
+                                           
+                                        </li>
+                   
+                                        <li class="tracks__card card"> 
+                      
+                                            <a href="" class="card__link">
+                                                <div class="card__cover"> 
+                                                    <img src="./img/12.jpg" alt="" > 
+                                                </div>
+                                                 <h3 class="card__song"> RITMO</h3>
+                                                <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                                 
+                                               
+                                            </li>
+                   
+                                            <li class="tracks__card card"> 
+                      
+                                                <a href="" class="card__link">
+                                                    <div class="card__cover"> 
+                                                        <img src="./img/12.jpg" alt="" > 
+                                                    </div>
+                                                     <h3 class="card__song"> RITMO</h3>
+                                                    <p class="card__author">Black Eyed Peas, J Balvin</p></a>  
+                                                     
+                                                   
+                                                </li>
+                               
+                   
+                
+                </ul>
+            </div>    
+
+
+
+            <div class="tracks__top">
+                <h2 class="tracks__title"> Top Tracks</h2>
+                    <ul class="tracks__songlist">
+                      <li class="tracks__option tracks__option--top">
+                        <div class="tracks__col tracks__col--bold"> #
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> 
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> Song
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> Artist
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> Daily Plays
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> Time
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> Option
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> 
+                        </div>
+                        <div class="tracks__col tracks__col--bold"> 
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                             <p>1</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> Dame Dame
+                        </div>
+                        <div class="tracks__col"> Claydee feat Ilya
+                        </div>
+                        <div class="tracks__col"> 39,566
+                        </div>
+                        <div class="tracks__col"> 4:21
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                            <p>2</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> Kamelia
+                        </div>
+                        <div class="tracks__col"> DDY Nunes
+                        </div>
+                        <div class="tracks__col"> 32,420
+                        </div>
+                        <div class="tracks__col"> 3:30
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                             <p>3</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col">  Laugh Till You Cry
+                        </div>
+                        <div class="tracks__col"> Faydee
+                        </div>
+                        <div class="tracks__col"> 28,221
+                        </div>
+                        <div class="tracks__col"> 3:56
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                             <p>4</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> I don't know
+                        </div>
+                        <div class="tracks__col"> Deejay Fly
+                        </div>
+                        <div class="tracks__col"> 21,528
+                        </div>
+                        <div class="tracks__col"> 2:26
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                             <p>5</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> Daddy
+                        </div>
+                        <div class="tracks__col"> Coldplay
+                        </div>
+                        <div class="tracks__col"> 22,357
+                        </div>
+                        <div class="tracks__col"> 4:59
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                             <p>6</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> Kosatka
+                        </div>
+                        <div class="tracks__col"> Hardkiss
+                        </div>
+                        <div class="tracks__col"> 23,345
+                        </div>
+                        <div class="tracks__col"> 3:26
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb"> 
+                             <p>7</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> Birds
+                        </div>
+                        <div class="tracks__col"> Imagine Dragons feat. Elisa
+                        </div>
+                        <div class="tracks__col"> 31,255
+                        </div>
+                        <div class="tracks__col"> 3:40
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+                    <li class="tracks__option">
+                        <div class="tracks__col tracks__col--numb">
+                            <p>8</p>
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </div>
+                        <div class="tracks__col"> <i class="far fa-heart"></i>
+                        </div>
+                        <div class="tracks__col"> Chlorine
+                        </div>
+                        <div class="tracks__col"> Twenty One Pilots
+                        </div>
+                        <div class="tracks__col"> 24,884
+                        </div>
+                        <div class="tracks__col"> 5:25
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <div class="tracks__col"> 
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="tracks__col "> 
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                    </li>
+
+            </ul>
+        </div>
+               
+            </div>
+        </main>
+   <div class="player">
+       <div class="player__left">
+           <div class="player__track">
+               <div class="player__cover">
+                   <img src="https://pic.lyricshub.ru/img/f/m/c/a/HaODSvaCmf.jpg" alt="">
+               </div>
+               <div class="player__info">
+                   <h2 class="player__name">Kamelia</h2>
+                   <p class="player__artist">Akcent ft Lidia Buble&DDY Nunes</p>
+               </div>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
